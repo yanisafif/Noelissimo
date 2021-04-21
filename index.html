@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noëlissimo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header-container" class="relative">
+            <nav id="main-nav" class="flex absolute">
+                <a href="#">
+                    <p>Noëlissimo</p>
+                </a>
+                <!--  -->
+                <ul class="flex">
+                    <li><a href="#engagments">Engagements</a></li>
+                    <li><a href="#gallery">Boutique</a></li>
+                    <li><a href="#testimonials">Avis</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!--  -->
+                <div id="menuToggle">
+                    <nav id="mobile-nav">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="index.html">
+                                <li>Accueil</li>
+                            </a>
+                            <a href="#engagments">
+                                <li>Engagements</li>
+                            </a>
+                            <a href="#gallery">
+                                <li>Boutique</li>
+                            </a>
+                            <a href="#contact">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+            <h2 class="absolute">Nöelissimo,<br>la solution ultime pour les fêtes !</h2>
+            <p id="header-scroll" class="absolute">
+                <a href="#main-container" id="header-scroll-link">Découvrir <i class="fas fa-chevron-down"></i></a>
+
+            </p>
+        </header>
+        <main id="main-container">
+            <section id="engagments">
+                <h2 class="flex">Nos engagements<span class="title-separator"></span></h2>
+                <div id="engagments-container" class="flex">
+                    <section class="flex">
+                        <h3>Livraison gratuite</h3>
+                        <i class="fas fa-shipping-fast"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur.</p>
+                    </section>
+                    <section class="flex">
+                        <h3>Paiements sécurisés</h3>
+                        <i class="fas fa-key"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur.</p>
+                    </section>
+                    <section class="flex">
+                        <h3>Satisfaits</h3>
+                        <i class="fas fa-thumbs-up"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur.</p>
+                    </section>
+                </div>
+            </section>
+            <section id="gallery">
+                <h2 class="flex">Notre boutique<span class="title-separator"></span></h2>
+                <div id="gallery-nav" class="flex">
+                    <a href="#">Boules</a>
+                    <a href="#">Sapins</a>
+                    <a href="#">Cadres</a>
+                    <a href="#">Guirlandes</a>
+                    <a href="#">Autres</a>
+                </div>
+                <div id="gallery-container" class="flex">
+                    <article>
+                        <figure><img src="img/boule_2.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_3.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/sapin_noel.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_7.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_8.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/cadre_noel.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/sapin_noel.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_6.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_5.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_6.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/cadre_noel.png" alt="" class="gallery-img"></figure>
+                    </article>
+                    <article>
+                        <figure><img src="img/boule_5.png" alt="" class="gallery-img"></figure>
+                    </article>
+                </div>
+            </section>
+            <section id="testimonials">
+                <h2 class="flex">Avis des clients<span class="title-separator"></span></h2>
+                <div id="testimonials-container">
+                    <article class="flex">
+                        <i class="fas fa-user-tie"></i>
+                        <div>
+                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ex tempore blanditiis perferendis temporibus iste repudiandae animi possimus nostrum saepe quis consectetur doloremque aspernatur quod labore unde nesciunt
+                                earum vitae!
+                            </p>
+                            <p class="quote-details"><strong>Jean Marc Goulougoulou</strong>, le 17/12/2020</p>
+                        </div>
+                    </article>
+                    <article class="flex">
+                        <i class="fas fa-user-tie"></i>
+                        <div>
+                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ex tempore blanditiis perferendis temporibus iste repudiandae animi possimus nostrum saepe quis consectetur doloremque aspernatur quod labore unde nesciunt
+                                earum vitae!
+                            </p>
+                            <p class="quote-details"><strong>Jean Marc Goulougoulou</strong>, le 17/12/2020</p>
+                        </div>
+                    </article>
+                    <article class="flex">
+                        <i class="fas fa-user-tie"></i>
+                        <div>
+                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ex tempore blanditiis perferendis temporibus iste repudiandae animi possimus nostrum saepe quis consectetur doloremque aspernatur quod labore unde nesciunt
+                                earum vitae!
+                            </p>
+                            <p class="quote-details"><strong>Jean Marc Goulougoulou</strong>, le 17/12/2020</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="newsletter" class="flex">
+                <h2>En ce moment, <span class="sales">-50%</span> sur notre sélection de sapins !</h2>
+            </section>
+            <section id="contact">
+                <h2 class="flex">Laissez nous un message<span class="title-separator"></span></h2>
+                <div id="form-container">
+                    <form action="" method="post">
+                        <div class="form-group flex">
+                            <label for="">Votre nom</label>
+                            <input type="text" id="nom" onkeyup="verifyName()">
+                        </div>
+                        <div class="form-group flex">
+                            <label for="">Votre e-mail</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-group flex">
+                            <label for="">Votre message</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <input type="submit" value="Envoyer" class="form-button">
+                    </form>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 400px;
+                                width: 500px;
+                            }
+                            
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none!important;
+                                height: 400px;
+                                width: 500px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer-container">
+            <p>&copy 2020 | Yanis AFIF</p>
+        </footer>
+    </div>
+    <script src="css/script.js"></script>
+</body>
+
+</html>
